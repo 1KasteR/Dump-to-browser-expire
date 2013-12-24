@@ -1,9 +1,9 @@
 <?php
 ignore_user_abort ();
 set_time_limit ( 0 );
-$file_path = './path/to/file.pdf';
-$file_type = 'application/pdf';
-$file_name = 'document.pdf';
+$file_path = './path/to/file.zip';
+$file_type = 'application/zip';
+$file_name = 'document.zip';
 header ( 'Cache-Control: max-age=31536000' );
 header ( 'Expires: Mon, 26 Jul 1997 05:00:00 GMT' );
 header ( 'Content-Length: ' . filesize ( $file_path ) );
